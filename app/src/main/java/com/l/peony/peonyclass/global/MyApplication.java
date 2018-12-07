@@ -5,7 +5,6 @@ import android.app.Application;
 import android.content.Context;
 import android.content.SharedPreferences;
 
-import com.umeng.commonsdk.UMConfigure;
 
 import java.util.Vector;
 
@@ -26,17 +25,6 @@ public class MyApplication extends Application {
         msp = getSharedPreferences("config", MODE_PRIVATE);
         super.onCreate();
 
-        //打开Log的开关
-        UMConfigure.setLogEnabled(true);
-        //对于日志进行加密
-        UMConfigure.setEncryptEnabled(true);
-        /**
-         * 初始化common库
-         * 参数1:上下文，不能为空
-         * 参数2:设备类型，UMConfigure.DEVICE_TYPE_PHONE为手机、UMConfigure.DEVICE_TYPE_BOX为盒子，默认为手机
-         * 参数3:Push推送业务的secret
-         */
-        UMConfigure.init(this, UMConfigure.DEVICE_TYPE_PHONE, "1fe6a20054bcef865eeb0991ee84525b");
 
     }
 
