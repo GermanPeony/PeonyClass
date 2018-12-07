@@ -3,11 +3,11 @@ package com.l.peony.peonyclass.base;
 import android.os.Bundle;
 import android.support.v4.app.FragmentManager;
 import android.support.v7.app.AppCompatActivity;
-import com.l.peony.peonyclass.global.MyApplication;
+
+import com.test.lc.wanandroid.global.MyApplication;
 
 import butterknife.ButterKnife;
 import butterknife.Unbinder;
-
 
 /*
  * 爱生活，爱代码
