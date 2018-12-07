@@ -1,0 +1,12 @@
+diff a/.gitignore b/.gitignore	(rejected hunks)
+@@ -1,10 +0,0 @@
+-*.iml
+-.gradle
+-/local.properties
+-/.idea/libraries
+-/.idea/modules.xml
+-/.idea/workspace.xml
+-.DS_Store
+-/build
+-/captures
+-.externalNativeBuild
