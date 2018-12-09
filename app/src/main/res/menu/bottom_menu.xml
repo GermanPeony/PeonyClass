@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/bottom_home"
+        android:icon="@drawable/tab_btn_01_def"
+        android:title="首页"></item>
+    <item
+        android:id="@+id/bottom_shouke"
+        android:icon="@drawable/tab_btn_02_def"
+        android:title="授课"></item>
+    <item
+        android:id="@+id/bottom_live"
+        android:icon="@drawable/tab_btn_03_def"
+        android:title="今日直播"></item>
+    <item
+        android:id="@+id/bottom_huancun"
+        android:icon="@drawable/tab_btn_04_def"
+        android:title="缓存"></item>
+    <item
+        android:id="@+id/bottom_my"
+        android:icon="@drawable/tab_btn_05_def"
+        android:title="我的"></item>
+
+</menu>
