@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="location">未定位</string>
+    <string name="search_text">搜索课程</string>
+    <string name="btn_home1">公开课</string>
+    <string name="btn_home2">系统课程</string>
+    <string name="btn_home3">学员专享</string>
+    <string name="btn_home4">图书服务</string>
+    <string name="btn_home5">国考冲刺</string>
+    <string name="shizheng">时政</string>
+    <string name="redian">热点</string>
+    <string name="haoketuijian">好课推荐</string>
+    <string name="gongkaike">公开课</string>
+    <string name="xitongkecheng">系统课程</string>
+    <string name="weinituijian">为你推荐</string>
 </resources>
